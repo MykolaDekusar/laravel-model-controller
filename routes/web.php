@@ -13,5 +13,5 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
-Route::get('/', [PageController::class, 'index']);
+// seleziono il controller e la funzione che esegue
+Route::get('/', [PageController::class, 'index'])->name('ciao');

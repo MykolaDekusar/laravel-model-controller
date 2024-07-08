@@ -1,0 +1,36 @@
+.card {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    background: rgba(255, 138, 13, 0.339);
+    border-radius: 15px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.card-content {
+    line-height: 2rem;
+    height: 180px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.album-name {
+    font-size: 1.5rem;
+}
+.score {
+    color: white;
+    font-size: 1.5rem;
+}
+.album-year {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}

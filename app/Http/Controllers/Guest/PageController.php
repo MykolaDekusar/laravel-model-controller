@@ -10,8 +10,9 @@ class PageController extends Controller
 {
     public function index()
     {
+        // assegno tutti i dati del database alla variabile
         $movies = Movie::all();
-
-        return view('welcome', compact('movies'));
+        // grazie al compact posso visualizzare i dati del database in pagina
+        return view('movies', compact('movies'));
     }
 }
